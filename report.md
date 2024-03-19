@@ -1,38 +1,4 @@
-
-
-
-## When is the project due?
-
-- The official project deadline is Friday, April 12th.
-- You are encouraged to finish the project by Wednesday, April 10th. You will have an opportunity to present your project.
-- This is voluntarily but operates under the "it can only help you" rule: if your presentation helps to clarify the contributions or challenges of your project, this may positively affect your grade.^[In particular, presenting your project can help you increase your "relevance to class themes" score, as I will ask questions and give you a chance to further demonstrate engagement with our key themes.]
-
-## Extensions?
-
-If you believe you can make major improvements with some extra time, you can write an "extension" plan at least a week in advance (i.e. by April 5th) detailing how your group will use the following time (between 1-5 days). 
-
-This should be structured much like an email or presentation you might give your boss explaining why a feature needs an extra week of dev time (something that may happen in your career!)
-
-## Warning!
-
-Barring exceptional circumstances, if you have not asked for an extension by the 5th, whatever you turn in on April 12th will be graded.
-
-## How is the class project graded?
-
-Group-based scaling: I've mentioned in class that larger groups will higher overall expectations for what the project accomplishes.
-
-In practice, this will be implemented based an assessment of "artifact quality" and based on your report's "contribution statements". You should describe what everyone did and provide evidence that everyone did something.
-
-## Expectations
-
-
-More concretely, we will use the following rubric/process to assign grades to the projects. Remember that a goal of the loose project guidelines is so that you can make something that will look good on your portfolio based on your own career or personal interests. This will be a motivating theme in grading -- could the project impress a potential employer?
-
-## 
-
-You are expected to do some degree of self or collaborative learning as part of the project. You may need to try out libraries we didn't use directly during class time or read work that wasn't assigned. If you are only engaging with course materials, this is enough for our quizzes, but probably not enough for the project.
-
-
+# CMPT 419 Project Report (Draft)
 ## Report Rubric
 
 - Abstract 	2 points
@@ -54,16 +20,10 @@ You are expected to do some degree of self or collaborative learning as part of 
 
 ## Abstract: 2 points
 
-Summarize the key contribution of your project. It should be understandable to all of your classmates, and at least partially understandable to your peers from across a variety of disciplines.
-
-Marking scheme: 
-- 2/2 for clear concise project that explains what your project does and why you were motivated to do it. 
-- 1/2 for abstract that is difficult to read, is vague, or doesn't motivate the work. 
-- 0/2 for abstract that is very vague or missing.
+[OpenWebUI](https://github.com/open-webui/open-webui) is a great open-source user interface for Large Language Models (LLMs). It provides a ChatGPT-like UI for running open-source LLMs locally through [Ollama](https://github.com/ollama/ollama), and also integrates seamlessly with OpenAI models with an API key. As a daily user myself, my main motivation to contribute to this project is to help improve the best open-source user interface for LLMs, which align with the human-centric AI focus of CMPT419.
 
 ## Visual Abstract: 2 points
 
-Create a figure or diagram that summarizes the key contribution of your project.
 
 Same marking scheme as abstract.
 
