@@ -51,8 +51,5 @@ Reference links:
 My contributions in the OpenWebUI project focuses on the human-centric aspect of AI. I am interested in exploring how interfaces for AI/ML can be improved to better support humans in everyday use (i.e. HCI in AI/ML tools). As OpenWebUI is an open-source project that has become quite popular recently (10k+ stars), it has been interesting to see what kind of features/changes are being requested and/or implemented by the community. I think that OpenWebUI is quite innovative in the LLM chatbot UI space as it has many features that improve the user experience of interacting with a LLM that popular closed-source chatbots do not have. For example, OpenWebUI now has a feature that allows the user to delete a message/response pair, which I find quite useful. Overall, the HCI aspects of LLM chatbots really interest me and working on OpenWebUI has given me the opportunity to explore how applications can improve the user experience and make interactions with advanced AI systems more natural, efficient, and enjoyable.
 
 ## Artifacts
-You will also earn up to 8 points for producing high quality artifacts -- this might be code, UI design mock-ups, an actual interface, or a very well formatted report.
-
-You should include at the end of your report a contribution statement describing specifically how each group member contributed to each section of the project and each artifact.
-
-You will also turn in (via zip file or web link) your project artifacts (code, design files, data outputs, other artifacts, etc.). You are encouraged to create a public GitHub repository and just put the link in your report PDF. This will make it easier to share with others as well.
+https://github.com/open-webui/open-webui/pulls?q=is%3Apr+author%3Adannyl1u+is%3Aclosed  
+// TODO: add video recordings/screenshots of implemented features
