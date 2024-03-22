@@ -14,8 +14,15 @@
 [OpenWebUI](https://github.com/open-webui/open-webui) is a great open-source user interface for Large Language Models (LLMs). It provides a ChatGPT-like UI for running open-source LLMs locally through [Ollama](https://github.com/ollama/ollama), and also integrates seamlessly with OpenAI models with an API key. As a daily user myself, my main motivation to contribute to this project is to help improve the best open-source user interface for LLMs, which align with the human-centric AI focus of CMPT419.
 
 ## Visual Abstract
+- feat: system os light/dark mode option (https://github.com/open-webui/open-webui/pull/1115)  
+![image](https://github.com/dannyl1u/cmpt419_spring2024/assets/45186464/73bf84b0-513e-4a0b-bc93-d5666b3707c8) 
 
-Same marking scheme as abstract.
+- feat: delete message (https://github.com/open-webui/open-webui/pull/789, https://github.com/open-webui/open-webui/pull/1004)  
+![image](https://github.com/dannyl1u/cmpt419_spring2024/assets/45186464/a4a257ee-5bc1-4bba-8155-fa383c23b976)  
+
+- feat: show prompt token/s in perf info (https://github.com/open-webui/open-webui/pull/784)  
+![image](https://github.com/dannyl1u/cmpt419_spring2024/assets/45186464/84eb56e1-c45f-44cc-b47d-929a4166e6ed)  
+
 
 ## Introduction
 
