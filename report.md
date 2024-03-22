@@ -1,33 +1,23 @@
 # CMPT 419 Project Report (Draft)
-## Report Rubric
+1. [Abstract](#abstract)
+2. [Visual Abstract](#visual-abstract)
+3. [Introduction](#introduction)
+4. [Related Work](#related-work)
+5. [Methods](#methods)
+6. [Results](#results)
+7. [Discussion](#discussion)
+8. [Connection to class themes](#connection-to-class-themes)
+9. [Artifacts](#artifacts)
 
-- Abstract 	2 points
-- Visual Abstract 	2 points
-- Introduction 	4 points
-- Related Work 	4 points
-- Methods 	4 points
-- Results 	4 points
-- Discussion 	8 points
-- Connection to class themes 	4 points
-- Overall artifact quality 	8 points
-
-## Report Rubric
-
-- Abstract, Visual Abstract are tier 1
-- Intro, RW, Methods, Results, Connection to Class themes are tier 2
-- Discussion and Overall Artifact Quality are tier 3
-
-
-## Abstract: 2 points
+## Abstract
 
 [OpenWebUI](https://github.com/open-webui/open-webui) is a great open-source user interface for Large Language Models (LLMs). It provides a ChatGPT-like UI for running open-source LLMs locally through [Ollama](https://github.com/ollama/ollama), and also integrates seamlessly with OpenAI models with an API key. As a daily user myself, my main motivation to contribute to this project is to help improve the best open-source user interface for LLMs, which align with the human-centric AI focus of CMPT419.
 
-## Visual Abstract: 2 points
-
+## Visual Abstract
 
 Same marking scheme as abstract.
 
-## Introduction: 4 points
+## Introduction
 
 State the problem your project solves. You should cite some motivating work.
 
@@ -38,21 +28,21 @@ You will not be graded based on how important I think your topic is, but based o
 - 2/4 for intro that provides some motivation but lacks evidence.
 - 0/4 for intro that is very vague, underdeveloped, or missing.
 
-## Related work: 4 points
+## Related work
 
 You should conduct a literature review of related work. This does not need to be restricted to peer-reviewed academic works or class readings. You can, and should, cite anything that helped you work on the project or serves as a point of comparison, including software libraries on GitHub, pre-prints on arXiv, blog posts from ML researchers, etc. You should be able to find 3-4 references, at least one of which is an academic work and itself provides upstream / "classics" in the subfield of your choice.
 
-## Methods / What you did: 4 points
+## Methods
 
 You should describe what you did. You are encouraged to find and cite an exemplar paper in order to help you structure your Methods section.
 
 If you are unable to find an exemplar paper, please let me know!
 
-## Results / What you produced: 4 points
+## Results
 
 This section will also vary quite a bit based on your project. You are encouraged to find and cite an exemplar paper here, as well.
 
-## Discussion: 8 points
+## Discussion
 
 You can earn up to 8 points for discussing the implications of your project and especially potential lines of future work that incorporate a data-centric or human-centric lens. This section has a large point total because it is your change to show your engagement with course materials and concepts. You do not need to *only* discuss course readings or quote from course materials, but to earn a high score you should demonstrate engagement with course themes.
 
@@ -62,14 +52,13 @@ You can earn up to 8 points for discussing the implications of your project and 
 - 4/8 for a Discussion section that makes some connections to course themes, but is underdeveloped in some aspects
 - 0/8 for a Discussion section that engages only superficially with course themes, is very vague in dusicussing future work, or is missing.
 
-## Connection to class themes: 4 points
+## Connection to class themes
 
 Does your project show engagement with some of the frameworks for thinking we've discussed in the class? If I saw this project in your portfolio, would it give me confidence in your ability to work on "human-centered" or "data-centered" projects?
 
 Across all sections, of the report, you can earn up to 10 points for demonstrating connections to class themes.
 
-## Overall artifact quality: 8 points
-
+## Artifacts
 You will also earn up to 8 points for producing high quality artifacts -- this might be code, UI design mock-ups, an actual interface, or a very well formatted report.
 
 You should include at the end of your report a contribution statement describing specifically how each group member contributed to each section of the project and each artifact.
