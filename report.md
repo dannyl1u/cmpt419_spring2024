@@ -26,18 +26,16 @@
 
 ## Introduction
 
-State the problem your project solves. You should cite some motivating work.
-
-You will not be graded based on how important I think your topic is, but based on the motivation, evidence, and reasoning. It's possible to pick something I really like but not motivate it well!
-
-## Introduction marking scheme
-- 4/4 for an intro that clearly states the problem your project wants to solve and provides evidence and reasoning for why this project can achieve its stated goal.
-- 2/4 for intro that provides some motivation but lacks evidence.
-- 0/4 for intro that is very vague, underdeveloped, or missing.
+ChatGPT is used and loved by many but is closed-source, proprietary software owned by OpenAI. Open WebUI provides a user interface for using local open-source LLMs with a look and feel that is similar to the ChatGPT that we are familiar with.
 
 ## Related work
+Existing user interfaces for Ollama:  
+https://github.com/ollama/ollama?tab=readme-ov-file#community-integrations
 
-You should conduct a literature review of related work. This does not need to be restricted to peer-reviewed academic works or class readings. You can, and should, cite anything that helped you work on the project or serves as a point of comparison, including software libraries on GitHub, pre-prints on arXiv, blog posts from ML researchers, etc. You should be able to find 3-4 references, at least one of which is an academic work and itself provides upstream / "classics" in the subfield of your choice.
+Reference links:  
+https://github.com/ollama/ollama
+https://github.com/ggerganov/llama.cpp
+
 
 ## Methods
 
@@ -71,14 +69,3 @@ You will also earn up to 8 points for producing high quality artifacts -- this m
 You should include at the end of your report a contribution statement describing specifically how each group member contributed to each section of the project and each artifact.
 
 You will also turn in (via zip file or web link) your project artifacts (code, design files, data outputs, other artifacts, etc.). You are encouraged to create a public GitHub repository and just put the link in your report PDF. This will make it easier to share with others as well.
-
-
-## What do I turn in?
-
-Required: a report as PDF.
-
-Optional: include a web link to your project materials (e.g. a GitHub link).
-
-Optional: include a a zip file with project materials.
-
-Optional: Present your project during the final week of class.
