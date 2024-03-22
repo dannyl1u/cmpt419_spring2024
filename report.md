@@ -1,4 +1,6 @@
 # CMPT 419 Project Report (Draft)
+Author: Danny Liu  
+# Table of Contents
 1. [Abstract](#abstract)
 2. [Visual Abstract](#visual-abstract)
 3. [Introduction](#introduction)
@@ -6,8 +8,7 @@
 5. [Methods](#methods)
 6. [Results](#results)
 7. [Discussion](#discussion)
-8. [Connection to class themes](#connection-to-class-themes)
-9. [Artifacts](#artifacts)
+8. [Artifacts](#artifacts)
 
 ## Abstract
 
@@ -30,38 +31,24 @@ ChatGPT is used and loved by many but is closed-source, proprietary software own
 
 ## Related work
 Existing user interfaces for Ollama:  
-https://github.com/ollama/ollama?tab=readme-ov-file#community-integrations
+- https://github.com/ollama/ollama?tab=readme-ov-file#community-integrations
 
 Reference links:  
-https://github.com/ollama/ollama
-https://github.com/ggerganov/llama.cpp
+- https://github.com/ollama/ollama
+- https://github.com/ggerganov/llama.cpp
 
 
 ## Methods
 
-You should describe what you did. You are encouraged to find and cite an exemplar paper in order to help you structure your Methods section.
-
-If you are unable to find an exemplar paper, please let me know!
+// TODO
 
 ## Results
 
-This section will also vary quite a bit based on your project. You are encouraged to find and cite an exemplar paper here, as well.
+// TODO
 
 ## Discussion
 
-You can earn up to 8 points for discussing the implications of your project and especially potential lines of future work that incorporate a data-centric or human-centric lens. This section has a large point total because it is your change to show your engagement with course materials and concepts. You do not need to *only* discuss course readings or quote from course materials, but to earn a high score you should demonstrate engagement with course themes.
-
-## Discussion marking scheme
-
-- 8/8 for a Discussion section that situates the project with some subdomain of human-centered or data-centered machine learning
-- 4/8 for a Discussion section that makes some connections to course themes, but is underdeveloped in some aspects
-- 0/8 for a Discussion section that engages only superficially with course themes, is very vague in dusicussing future work, or is missing.
-
-## Connection to class themes
-
-Does your project show engagement with some of the frameworks for thinking we've discussed in the class? If I saw this project in your portfolio, would it give me confidence in your ability to work on "human-centered" or "data-centered" projects?
-
-Across all sections, of the report, you can earn up to 10 points for demonstrating connections to class themes.
+My contributions in the OpenWebUI project focuses on the human-centric aspect of AI. I am interested in exploring how interfaces for AI/ML can be improved to better support humans in everyday use (i.e. HCI in AI/ML tools). As OpenWebUI is an open-source project that has become quite popular recently (10k+ stars), it has been interesting to see what kind of features/changes are being requested and/or implemented by the community. I think that OpenWebUI is quite innovative in the LLM chatbot UI space as it has many features that improve the user experience of interacting with a LLM that popular closed-source chatbots do not have. For example, OpenWebUI now has a feature that allows the user to delete a message/response pair, which I find quite useful. Overall, the HCI aspects of LLM chatbots really interest me and working on OpenWebUI has given me the opportunity to explore how applications can improve the user experience and make interactions with advanced AI systems more natural, efficient, and enjoyable.
 
 ## Artifacts
 You will also earn up to 8 points for producing high quality artifacts -- this might be code, UI design mock-ups, an actual interface, or a very well formatted report.
