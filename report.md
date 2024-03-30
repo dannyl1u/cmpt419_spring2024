@@ -12,6 +12,9 @@ Author: Danny Liu
 
 ## Abstract
 
+Highly capable open-source LLMs are increasingly becoming available [1].  
+[1] https://dl.acm.org/doi/pdf/10.1145/3584931.3608438
+
 [OpenWebUI](https://github.com/open-webui/open-webui) is a great open-source user interface for Large Language Models (LLMs). It provides a ChatGPT-like UI for running open-source LLMs locally through [Ollama](https://github.com/ollama/ollama), and also integrates seamlessly with OpenAI models with an API key. As a daily user myself, my main motivation to contribute to this project is to help improve the best open-source user interface for LLMs, which align with the human-centric AI focus of CMPT419.
 
 ## Visual Abstract
