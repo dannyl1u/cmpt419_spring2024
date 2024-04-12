@@ -8,7 +8,7 @@
 
 \begin{document}
 
-\title{Everyone wants to do the AI work, not the HCI work}
+\title{Everyone wants to do the model work, not the HCI work}
 
 \author{Danny Liu}
 
@@ -36,35 +36,103 @@ The increasing popularity of large language models (LLMs), such as ChatGPT, is l
 \end{CCSXML}
 
 \ccsdesc[500]{Human-centered computing~Accessibility systems and tools}
-\keywords{Large Language Models, User Interface, Human Centered Artificial Intelligence, Human Computer Interaction}
+\keywords{Large Language Models, User Interface, Human Centered Artificial Intelligence, Human Computer Interaction, Open Source}
+
+\begin{teaserfigure}
+  \centering
+  \includegraphics[width=0.6\linewidth]{image.png}
+  \caption{OpenWebUI User Interface}
+  \Description{ChatGPT-like user interface enhancing user interaction with LLMs.}
+  \label{fig:teaser}
+\end{teaserfigure}
 
 \maketitle
-
 \section{Introduction}
-test
-
-\subsection{Visual Abstract}
-test
+The advent of ChatGPT has demonstrated the widespread utility of large language models (LLMs) to a diverse audience. As of April 2024, OpenAI's ChatGPT operates on the proprietary GPT-4 model, details of which, such as the model size, architecture, and hardware specifics for training and deployment, remain undisclosed. In contrast, several robust open-source LLMs are accessible, including Llama 2 by Meta Research, Mistral by Mistral AI, and Google's BERT. These models provide transparency, allowing users to examine the source code and deploy the LLMs locally without requiring internet connectivity. One of the critical factors behind ChatGPT's success is its user-friendly interface, which supports features like conversation history, image uploads, and an engaging chat experience. To replicate this accessibility for local LLMs, OpenWebUI has been developed. OpenWebUI aims to democratize AI usage by offering a streamlined, intuitive interface similar to that of ChatGPT, enabling interaction with LLMs without the need for advanced technical skills that command-line interfaces demand. This initiative strives to make powerful AI tools broadly accessible, thereby enhancing user experience with local LLMs.
 
 \subsection{Related Work}
-test
+This research is informed by a variety of sources, ranging from academic studies to software implementations, reflecting the multidisciplinary nature of human-computer interaction (HCI) and large language models (LLMs).
 
-\subsubsection{A Third-level Heading} 
-test
+A foundational academic reference is the work by Shneiderman et al. (2016), which provides a comprehensive overview of the principles of HCI and its impact on technology development and user interface design \cite{shneiderman2016designing}. This work lays the theoretical groundwork for understanding the importance of human-centric design in interactive systems.
 
-\subsection{Methods}
-Test
+In the context of LLMs, Bender and Koller's (2020) discussion on the challenges and ethical implications of AI language models serves as a critical academic reference. Their paper highlights the need for transparency and user trust, which directly ties into the motivations for open-source HCI solutions \cite{bender2020climbing}.
 
-\subsection{Results}
-Test
+These references collectively inform the development of enhanced interfaces for LLMs, emphasizing the need for user-friendly design to make advanced technologies accessible to a broader audience.
+
+\subsection{Methods and Results}
+This section describes the methodologies used in the design, implementation, and evaluation of user interfaces for local LLMs, focusing on specific features designed to enhance user experience and engagement.
+
+\subsubsection{Design and Implementation}
+The development process adhered to human-centered design principles, starting with a needs assessment that identified essential features users desire in a local LLM interface. Based on the findings, we prioritized the following key features for implementation:
+
+\begin{itemize}
+    \item \textbf{Message Deletion in History:} Users can delete specific messages in the conversation history, ensuring the LLM does not consider these messages in subsequent context calculations.
+    \item \textbf{Performance Tooltips:} Hovering over elements of the UI reveals tooltips that provide performance metrics of the LLM, such as response time and memory usage.
+    \item \textbf{Dark Theme:} A user-selectable dark theme was implemented to reduce eye strain and enhance visibility in low-light conditions.
+    \item \textbf{Profile Avatar with User Initials:} The interface includes a customizable avatar in the profile section, displaying the user's initials, which enhances personalization and user engagement.
+\end{itemize}
+
+\subsubsection{Evaluation Methodology}
+Evaluation was an ongoing process facilitated by community engagement through GitHub. The implemented features were introduced to the community as pull requests, which were accompanied by detailed documentation to explain the changes and their intended impacts. Feedback was actively solicited by opening issues in the discussion section of the repository, allowing other developers and users to contribute to the conversation and suggest improvements.
+
+The community's reception of the pull requests was overwhelmingly positive, as indicated by the quick merging of requests and the constructive comments received. This feedback loop was crucial for iterative improvements and ensuring the interface met user expectations and technical standards.
+
+Guided by Nielsen's principles of usability engineering \cite{nielsen1994usability}, our design and evaluation processes focused on optimizing interface usability and functionality, ensuring a positive user experience. These principles were instrumental in defining our usability metrics and testing methodologies.
 
 \subsection{Discussion}
-Test
+This project's successful integration of enhanced user interface features for local LLMs, based on community-driven development, has several implications for the fields of HCI and AI. The interface improvements address critical aspects of user experience and accessibility, underscoring the importance of human-centric design principles in developing AI technologies.
+
+\subsubsection{Implications of the Project}
+The introduction of features such as message deletion, performance tooltips, dark theme, and customizable avatars has significantly improved user interaction with LLMs. These features not only make the technology more accessible but also enhance user trust and satisfaction by providing greater control and personalization. This aligns with human-centric design principles, which prioritize the needs and experiences of users in the development of technological solutions.
+
+Furthermore, the use of open-source frameworks and community engagement in the development process promotes transparency and inclusivity in AI development. This approach not only enhances the quality and relevance of the software but also fosters a collaborative environment where diverse perspectives contribute to innovation.
+
+\subsubsection{Future Work}
+Software development is an ongoing process, and the enhancements made to this project pave the way for additional improvements. The next phase involves further embracing human-centric design to elevate the functionality and responsiveness of local LLMs. Draft pull requests for the following features are currently under development:
+
+\begin{itemize}
+    \item \textbf{Improved Text-To-Speech (TTS) Output Controls:} This initiative aims to refine how users interact with auditory outputs from the system, enhancing accessibility and user control. Future updates include more intuitive controls for voice speed and tone, aligning with user needs and preferences.
+       \item \textbf{Dynamic Model Pulling from Ollama:} This feature is designed to streamline the process of updating and selecting LLMs. It introduces an automated search and retrieval system, allowing users to easily access a list of available models directly through the interface. This eliminates the need for manual searches and copy-pasting model details into the download bar, significantly enhancing efficiency and user experience by simplifying how models are updated and integrated into the system.
+    
+    \item \textbf{Enhanced Documentation for OpenWebUI:} Recognizing the importance of user support, we are improving the documentation for OpenWebUI. This includes developing a comprehensive search feature within the documentation, making it easier for users to find relevant information and troubleshoot issues independently.
+\end{itemize}
+
+These initiatives are designed to not only improve the usability and efficiency of the interface but also to ensure that the system remains adaptable and responsive to the evolving needs of its users.
 
 \subsection{Artifacts}
-Test
+This section lists the published and in-progress pull requests that showcase the contributions and ongoing work within the OpenWebUI project:
+
+\textbf{Published Features (Merged Pull Requests):}
+\begin{itemize}
+    \item \href{https://github.com/open-webui/open-webui/pull/1386}{Pull Request \#1386}
+    \item \href{https://github.com/open-webui/open-webui/pull/1325}{Pull Request \#1325}
+    \item \href{https://github.com/open-webui/open-webui/pull/1115}{Pull Request \#1115}
+    \item \href{https://github.com/open-webui/open-webui/pull/1004}{Pull Request \#1004}
+    \item \href{https://github.com/open-webui/open-webui/pull/789}{Pull Request \#789}
+    \item \href{https://github.com/open-webui/open-webui/pull/784}{Pull Request \#784}
+\end{itemize}
+
+\textbf{In-Progress Pull Requests:}
+\begin{itemize}
+    \item \href{https://github.com/open-webui/open-webui/pull/1456}{Pull Request \#1456}
+    \item \href{https://github.com/open-webui/open-webui/pull/1260}{Pull Request \#1260}
+\end{itemize}
 
 \begin{acks}
-Acknowledgements go here. Delete enclosing begin/end markers if there are no acknowledgements.
+This work would not have been possible without the support and contributions of the OpenWebUI community, whose insights and feedback have been invaluable. Special thanks to Timothy J. Baek for his mentorship and guidance throughout this project. I am also grateful to Dr. Nicholas Vincent and the SFU Interactive Experiences Lab (ixLab) for their support and resources that significantly contributed to my research. Their commitment to fostering a collaborative research environment has been essential to the success of this project.
 \end{acks}
+
+\begin{thebibliography}{}
+
+\bibitem{shneiderman2016designing}
+Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., Elmqvist, N., \& Diakopoulos, N. (2016). \textit{Designing the User Interface: Strategies for Effective Human-Computer Interaction} (6th ed.). Pearson.
+
+\bibitem{bender2020climbing}
+Bender, E. M., \& Koller, A. (2020). Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data. \textit{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}.
+
+\bibitem{nielsen1994usability}
+Nielsen, J. (1994). \textit{Usability Engineering}. Academic Press.
+
+\end{thebibliography}
+
 \end{document}
